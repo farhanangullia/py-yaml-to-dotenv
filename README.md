@@ -25,7 +25,7 @@ $ python parse_mappings.py --keys KEYS [KEYS ...] path
 
 Suppose you want to export the key values to dotenv for different environments. Notice how in example/sample_mappings.yaml, the testing environment has child environments which will require another level of key-values.
 
-<img src="docs/sample_mappings.svg" width="200" height="400">
+<img src="docs/sample_mappings.svg" width="300" height="600">
 
 #### staging
 
