@@ -1,0 +1,24 @@
+production:
+  LOG_LEVEL: ALL
+  HOSTNAME: prod-foobar 
+  NAMESPACE_ID: 1
+
+staging:
+  LOG_LEVEL: DEBUG
+  HOSTNAME: stg-foobar
+  NAMESPACE_ID: 2
+
+testing:
+  chaos:
+    LOG_LEVEL: TRACE
+    HOSTNAME: chaos-foobar
+    NAMESPACE_ID: 3
+  user-acceptance:
+    LOG_LEVEL: INFO
+    HOSTNAME: uat-foobar
+    NAMESPACE_ID: 4
+
+development:
+  LOG_LEVEL: DEBUG
+  HOSTNAME: dev-foobar
+  NAMESPACE_ID: 5
