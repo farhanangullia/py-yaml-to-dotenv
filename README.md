@@ -38,4 +38,3 @@ Suppose you want to export the key values to dotenv for different environments. 
 <img src="docs/example_chaos.gif" width="500" height="300">
 
 `$ python parse_mappings.py example/mappings.yaml --keys testing chaos`
-
