@@ -29,12 +29,16 @@ Suppose you want to export the key values to dotenv for different environments. 
 
 #### staging
 
-<img src="docs/example_stg.gif" width="500" height="300">
+```bash
+$ python parse_mappings.py example/mappings.yaml --keys staging
+```
 
-`$ python parse_mappings.py example/mappings.yaml --keys staging`
+<img src="docs/example_stg.gif" width="500" height="300">
 
 #### chaos
 
-<img src="docs/example_chaos.gif" width="500" height="300">
+```bash
+$ python parse_mappings.py example/mappings.yaml --keys testing chaos
+```
 
-`$ python parse_mappings.py example/mappings.yaml --keys testing chaos`
+<img src="docs/example_chaos.gif" width="500" height="300">
